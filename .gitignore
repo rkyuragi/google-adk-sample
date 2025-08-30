@@ -1,0 +1,59 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 環境/秘密情報
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ログ / 一時
+*.log
+logs/
+tmp/
+.cache/
+
+# テスト / カバレッジ
+.coverage*
+htmlcov/
+coverage/
+.jetbrains/
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.pylint.d/
+.ruff_cache/
+.bandit
+
+# ノートブック
+.ipynb_checkpoints/
+
+# 型 / lock / バージョン管理補助
+pip-wheel-metadata/
+pip-log.txt
+.python-version
+
+# プロファイル / ベンチ
+.prof
+.profraw
+.benchmarks/
+
+# その他ビルド派生
+.eggs/
+*.manifest
+*.spec
